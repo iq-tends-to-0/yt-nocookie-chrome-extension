@@ -1,0 +1,36 @@
+:root{
+    --primary:#ff4444;
+}
+
+body{
+    height:200px;
+    width:200px;
+    background-color: black;
+}
+.btn-wrapper{
+    border-radius: 10000px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn{
+    transition: 0.5s;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    border: 3px solid var(--primary);
+    color:var(--primary);
+    border-radius: 100px;
+}
+#btn:hover{
+    transition: 0.5s;
+    height: 40px;
+    width: 100px;
+    background-color: var(--primary);
+    border: 3px solid var(--primary);
+    color:white;
+    border-radius: 100px;
+}
