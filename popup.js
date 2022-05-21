@@ -22,5 +22,3 @@ function clickHandler(e){
         }
     });
 }
-
-const a = "foo"
